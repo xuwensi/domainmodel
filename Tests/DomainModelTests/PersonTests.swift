@@ -65,6 +65,8 @@ class FamilyTests : XCTestCase {
         let _ = family.haveChild(matt)
 
         let familyIncome = family.householdIncome()
+        print(family.members!)
+
         XCTAssert(familyIncome == 12000)
     }
   
